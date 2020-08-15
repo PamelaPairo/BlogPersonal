@@ -1,10 +1,11 @@
 [build]
-  command = "hugo --gc --minify -b $URL --themesDir ../../"
+ # command = "hugo --gc --minify -b $URL --themesDir ../../"
+  command = hugo
   base    = ""
   publish = "public"
 
 [build.environment]
-  HUGO_THEME = "repo"
+  HUGO_THEME = "hugo-academic"
   HUGO_VERSION = "0.74.3"
   HUGO_ENABLEGITINFO = "false"
 
