@@ -4,7 +4,7 @@
   publish = "exampleSite/public"
 
 [build.environment]
-  HUGO_THEME = "hugo-academic"
+  HUGO_THEME = "repo"
   HUGO_VERSION = "0.74.3"
   HUGO_ENABLEGITINFO = "true"
 
