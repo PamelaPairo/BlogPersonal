@@ -12,7 +12,7 @@ education:
     year: 2009 - 2014
 email: ""
 interests:
-- Taxonomic and functional diversit
+- Taxonomic and functional diversity
 - Mirmecology
 - RStats
 - GIS
