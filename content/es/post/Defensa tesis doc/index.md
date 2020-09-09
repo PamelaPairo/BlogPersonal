@@ -8,7 +8,7 @@ editor_options:
 ---
 
 A mediados de junio de este año, defendí mi tesis doctoral titulada
-"Desarrollo de plantaciones forestales en bioma de pastizal: respuestas de la diversidad taxonómica y funcional en múltiples taxa". Esta tesis fue dirgida por la Dra. M. Isabel Bellocq y co-diriga por Dr. Pablo Aceñolaza. Los jurados fueron el Dr. Marcelo Arturi, Dr. Gerardo Cueto y el Dr. Pedro Blendinger.
+"Desarrollo de plantaciones forestales en bioma de pastizal: respuestas de la diversidad taxonómica y funcional en múltiples taxa". Esta tesis fue dirgida por la Dra. M. Isabel Bellocq y co-diriga por el Dr. Pablo Aceñolaza. Los jurados fueron el Dr. Marcelo Arturi, Dr. Gerardo Cueto y el Dr. Pedro Blendinger.
 
 La estructura fue la siguiente:
 
