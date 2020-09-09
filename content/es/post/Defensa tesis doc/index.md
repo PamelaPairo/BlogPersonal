@@ -22,7 +22,7 @@ La estructura fue la siguiente:
 
 -Mecanismos de formación de ensambles en el ciclo forestal del eucalipto (min 30:00)
 
--Resumen y Reflexiones finales (min 38:12)
+-Resumen y Reflexiones finales (min 38:12) 
 
 Dejo el video aqui:
 
