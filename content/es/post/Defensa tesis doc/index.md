@@ -1,9 +1,6 @@
 ---
 date: "2020-09-09"
 diagram: true
-image:
-  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
-  placement: 3
 math: true
 title: Defensa de Tesis Doctoral
 editor_options: 
@@ -11,7 +8,7 @@ editor_options:
 ---
 
 A mediados de junio de este año, defendí mi tesis doctoral titulada
-"Desarrollo de plantaciones forestales en bioma de pastizal: respuestas de la diversidad taxonómica y funcional en múltiples taxa". Esta tesis fue dirgida por la Dra. M. Isabel Bellocq y co-diriga por Dr. Pablo Aceñolaza.
+"Desarrollo de plantaciones forestales en bioma de pastizal: respuestas de la diversidad taxonómica y funcional en múltiples taxa". Esta tesis fue dirgida por la Dra. M. Isabel Bellocq y co-diriga por Dr. Pablo Aceñolaza. Los jurados fueron el Dr. Marcelo Arturi, Dr. Gerardo Cueto y el Dr. Pedro Blendinger.
 
 La estructura fue la siguiente:
 
@@ -19,7 +16,7 @@ La estructura fue la siguiente:
 
 -Metodología General (min 9:07)
 
--Patrones de diversidad alfa taxonómica y funcional en relación con los cambios ambientales dentro del ciclo forestal (14:20)
+-Patrones de diversidad alfa taxonómica y funcional en relación con los cambios ambientales dentro del ciclo forestal (min 14:20)
 
 -Determinantes de la diversidad beta taxonómica y funcional a lo largo del ciclo forestal (min 20:56)
 
