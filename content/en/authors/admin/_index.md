@@ -40,7 +40,7 @@ user_groups:
 
 I’m PhD in Biological Sciences at Facultad de Ciencias Exactas y Naturales from the University of Buenos Aires, Argentina. I did my PhD in the [Laboratory of Community Ecology, and Macroecology (ECOMA)][] supervised by Dr. M. Isabel Bellocq.
 
-My research line focuses on analyzing the impact of human activities on the diversity and composition of biological communities with particular interest in arthropods. I have used the traditional taxonomic approach (species richness and composition) together with the functional diversity to better understanding the community assembly process in anthropogenic habitats. To do that, I have been using R to data visualization and statistical analysis. Currently, I'm learning about visualizing spatial data both in R and QGis and also to program in Python.
+My research line focuses on analyzing the impact of human activities on the diversity and composition of biological communities with particular interest in arthropods. I have used the traditional taxonomic approach (species richness and composition) together with the functional diversity to better understanding the community assembly process in anthropogenic habitats. To do that, I have been using R to data visualization and statistical analysis. Currently, I'm learning about visualizing spatial data both in R and QGis.
 
 Beyond my academic activities, I love traveling, stay in contact with nature, and learn from the local culture of the places that I visited. Also, I really enjoy dancing, particularly Dancehall, a musical style that was born in Jamaica. 
 
