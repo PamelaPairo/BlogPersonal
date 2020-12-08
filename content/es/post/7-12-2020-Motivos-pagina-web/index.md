@@ -21,7 +21,7 @@ Actualmente muchas personas hemos elegido tener nuestra página web personal com
 
 + **Otra forma de practicar nuestras habilidades de comunicación** 
 
-Una de las mejores formas de saber si entendimos acerca de cierto tópico es intentar explicarselo a alguien y que esa persona entienda lo que quisimos decir. De esta manera escribir un post puede ayudarnos a encontrar la forma más adecuada para que otra persona pueda entendernos. Y nos permite identificar aquellos temas que creemos que entendemos pero que quizas nos falte profundizar un poco más.
+Una de las mejores formas de saber si entendimos acerca de cierto tópico es intentar explicarselo a alguien y que esa persona entienda lo que quisimos decir. De esta manera escribir una nota puede ayudarnos a encontrar la forma más adecuada para que otra persona pueda entendernos. Y nos permite identificar aquellos temas que creemos que entendemos pero que quizas nos falte profundizar un poco más.
 
 + **Intercambio con colegas y ampliación de nuestra red de contactos (networking)** 
 
@@ -43,7 +43,7 @@ El siguiente esquema intenta resumir los tres pasos mas relevantes para la creac
 
 1. En GitHub: creación de un repositorio público donde colocar todas las carpetas de nuestra página desde R.
 
-2. En RStudio: instalación de {blogdown} y Hugo, elección del formato de nuestra página a partir de las diferentes opciones ofrecidas por Hugo. Configuracion de la página y cómo hacerla bilingüe.
+2. En RStudio: instalación de `blogdown` y Hugo, elección del formato de nuestra página a partir de las diferentes opciones ofrecidas por Hugo. Configuracion de la página y cómo hacerla bilingüe.
 
 3. Diferentes opciones para publicar tu página web en internet y la elección del dominio.
 
