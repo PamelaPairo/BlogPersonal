@@ -2,7 +2,7 @@
 date: "2020-12-07"
 draft: false
 type: post
-title: ¿Porqué deberías tener una página web personal?
+title: ¿Porqué necesitas tener una página web personal?
 authors: 
 - admin
 - Natalia Morandeira 
@@ -21,7 +21,7 @@ Actualmente muchas personas hemos elegido tener nuestra página web personal com
 
 + **Otra forma de practicar nuestras habilidades de comunicación** 
 
-Una de las mejores formas de saber si entendimos acerca de cierto tópico es intentar explicarselo a alguien y que esa persona entienda lo que quisimos decir. De esta manera escribir una nota puede ayudarnos a encontrar la forma más adecuada para que otra persona pueda entendernos. Y nos permite identificar aquellos temas que creemos que entendemos pero que quizas nos falte profundizar un poco más.
+Una de las mejores formas de saber si entendimos acerca de cierto tópico es intentar explicarselo a alguien y que esa persona comprenda lo que quisimos decir. De esta manera escribir una nota puede ayudarnos a encontrar la forma más didáctica para que otra persona pueda aprender sobre cierto tema. Y nos permite identificar aquellos tópicos que creíamos entender pero que quizas nos falte profundizar un poco más.
 
 + **Intercambio con colegas y ampliación de nuestra red de contactos (networking)** 
 
