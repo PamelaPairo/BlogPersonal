@@ -67,8 +67,7 @@ Ahora vamos a instalar a modo de ejemplo la plantilla **academic**
 ```{r hugo academic, eval=F, echo=TRUE}
 library (blogdown)
 
-blogdown::new_site(theme = "wowchemy/hugo-academic", theme_example = TRUE)# en theme se debe colocar el nombre de la plantilla de hugo elegida 
-
+blogdown::new_site(theme = "gcuschen/hugo-academic", theme_example = TRUE)# en theme se debe colocar el nombre de la plantilla de hugo elegida 
 ```
 
 Luego de esperar pocos minutos para la instalación de todas las carpetas y archivos que conforman la plantilla **academic**, obtendremos la primera versión de nuestro sitio web.
