@@ -1,0 +1,204 @@
+---
+title: "Creando una página web bilingüe en R"
+authors: 
+  - admin
+  - Natalia Morandeira
+  - Yanina Bellini Saibene
+date: "2020-12-18"
+categories:
+  - blogdown
+  - hugo
+  - Netlify
+tags:
+  - blogdown
+  - hugo
+  - Netlify
+  - multilingue
+image:
+  caption: '[Photo by Joanna Kosinska on Unsplash](https://unsplash.com/photos/Prfs32wh-o4)'
+  focal_point: center
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: false
+    toc_depth: 1
+---
+
+<link href="index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="index_files/anchor-sections/anchor-sections.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#en-github-crear-un-repositorio-público">En GitHub: crear un repositorio público</a></li>
+<li><a href="#en-rstudio-nuevo-proyecto-la-instalación-de-blogdown-y-hugo.-la-configuración-bilingüe.">En RStudio: nuevo proyecto, la instalación de <code>blogdown</code> y <em>Hugo</em>. La configuración bilingüe.</a></li>
+<li><a href="#publicar-tu-página-web-en-internet-deploy">Publicar tu página web en internet (Deploy)</a></li>
+<li><a href="#bonus-track">Bonus track</a></li>
+<li><a href="#fuentes">Fuentes</a></li>
+</ul>
+</div>
+
+<p>En la <a href="https://pamepairo.netlify.app/post/7-12-2020-motivos-pagina-web/">nota anterior</a> te comentamos algunas ventajas de tener una página web personal. También, resumimos en un esquema los 3 partes en las que se puede dividir el proceso. A continuación nos explayaremos en cada parte y construiremos la página web personal.</p>
+<p><img src="images/esquema_1.png" width="90%"/></p>
+<div id="en-github-crear-un-repositorio-público" class="section level1">
+<h1>En GitHub: crear un repositorio público</h1>
+<p>Comenzaremos con la creación de un repositorio en GitHub para luego crear un proyecto en RStudio con control de versiones. De esta manera podremos ir registrando todos cambios realizados para crear la página web. En esta parte, asumimos que tenés instalado Git y tenés una cuenta en GitHub. Si no es el caso, podés instalarte Git <a href="https://git-scm.com/downloads">desde esta página</a> y hacerte una cuenta en Github <a href="https://github.com/">aquí</a>. Si estás realizando tus primeros pasos en Git, en este <a href="https://yabellini.netlify.app/es/post/githubconr/">nota</a> encontrarás más información que te ayudará a incursionarte en Git.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>Vamos a comenzar creando un nuevo repositorio público en nuestra cuenta de GitHub, siguiendo los pasos que figuran a continuación.</p>
+<p><img src="images/repo.png" width="90%"/></p>
+<p>Para ello, no es necesario que el nombre del repositorio sea el nombre del dominio de la página web. Por último, copiamos el URL HTTPS de nuestro repositorio para clonarlo en RStudio.</p>
+<p><img src="images/repo1.png" width="90%"/></p>
+</div>
+<div id="en-rstudio-nuevo-proyecto-la-instalación-de-blogdown-y-hugo.-la-configuración-bilingüe." class="section level1">
+<h1>En RStudio: nuevo proyecto, la instalación de <code>blogdown</code> y <em>Hugo</em>. La configuración bilingüe.</h1>
+<p>Continuamos creando un proyecto con control de versiones utilizando la URL HTTPS del repositorio creado. <em>File &gt; New Project &gt; Version Control &gt; Git</em>.</p>
+<p>En el proyecto ya creado, proseguimos con la descarga del paquete <code>blogdown</code>.</p>
+<pre class="r"><code>install.packages(blogdown)</code></pre>
+<p>Una vez instalado <code>blogdown</code>, procedemos con la instalación de <em>Hugo</em>, de la siguiente manera:</p>
+<pre class="r"><code>blogdown::install_hugo()</code></pre>
+<p><em>Hugo</em> es el generador de sitios estáticos en el que se basa <code>blogdown</code>. En su <a href="https://themes.gohugo.io/">página web</a> se pueden encontrar una gran variedad de plantillas de sitios web. Por ejemplo, la plantilla <strong>academic</strong> tiene varias utilidades interesantes para páginas webs académicas.</p>
+<p>Ahora vamos a instalar a modo de ejemplo la plantilla <strong>academic</strong></p>
+<pre class="r"><code>library (blogdown)
+
+blogdown::new_site(theme = &quot;wowchemy/hugo-academic&quot;, theme_example = TRUE)# en theme se debe colocar el nombre de la plantilla de hugo elegida 
+</code></pre>
+<p>Luego de esperar pocos minutos para la instalación de todas las carpetas y archivos que conforman la plantilla <strong>academic</strong>, obtendremos la primera versión de nuestro sitio web.</p>
+<div id="personalizando-tu-sitio-web" class="section level2">
+<h2>Personalizando tu sitio web</h2>
+<p>Si tenés instalada la última versión de <code>blogdown</code>, la plantilla se previsualizará de forma automática en el panel <em>Viewer</em>. En cambio, si tenés una versión anterior, entonces hay que ejecutar las siguiente linea de código para tener un visualización del sitio web localmente.</p>
+<pre class="r"><code>
+blogdown::serve_site()
+blogdown::stop_server()# para dejar de visualizar el contenido generado
+</code></pre>
+<p>Veremos lo siguiente en <em>Viewer</em> ( o en un navegador):</p>
+<p><img src="images/hugo-academic.png" width="90%"/></p>
+<p>Ya tenemos nuestra página web, ahora lo que queda es reemplazar la información de la página por la nuestra y organizarla según nuestros intereses. A medida que modifiquemos cada archivo vamos a poder visualizar automáticamente los cambios en el <em>Viewer</em> y o en el navegador.</p>
+<p>A continuación se muestra los principales archivos y carpetas que constituyen la página web.</p>
+<pre><code>├── config.toml       
+📁── config/default
+   ├── menus.toml     
+   ├── params.toml    
+   └── languages.toml
+📂── content
+📁── themes</code></pre>
+<p>En el archivo <em><strong>config.toml</strong></em> se encuentran los metadatos de nuestra página. Dentro de este archivo modificaremos el título de la página web y la URL.</p>
+<p>Dentro de la carpeta _<strong>config/<em>default</em></strong> se encuentran tres archivos.toml que definen la configuración de la página web.</p>
+<ul>
+<li><p><em><strong>params.toml</strong></em>: combinación de colores de la página (<em>theme</em>)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, tamaño de la letra (<em>font_size</em>). En este archivo también se agrega la información de contacto (email, dirección laboral, cuenta de twitter, GitHub, ResearchGate).</p></li>
+<li><p><em><strong>menus.toml</strong></em>: opciones del menú de navegación (Notas, Proyectos, Cursos, Publicaciones, etc). Podrás cambiar los nombres o quitar aquellas opciones que no querés que aparezcan.</p></li>
+<li><p><em><strong>languages.toml</strong></em>: se define el o los idiomas del sitio web.</p></li>
+</ul>
+<p>En la carpeta <em>content</em> se localiza el contenido de nuesta página web en subcarpetas. Por ejemplo, si se quiere cambiar la información de la biografia, hay que seguir la siguiente ruta <em>content &gt; authors &gt; admin</em> y modificar el archivo <em>index.md</em>. Podremos cambiar la foto de la página reemplazando <em><strong>avatar.jpg</strong></em> por una foto nuestra.</p>
+<pre><code>📁── content
+   ├── 📂authors     
+   ├── 📂courses
+   ├── 📁home
+   ├── 📂post
+   ├── 📁project
+   └── 📁publication</code></pre>
+<p>Desde <strong><em>content/home</em></strong> se podrán activar y editar cada una de las opciones del menú de navegación (widgets) de la página web. Para que se visualice el widget, es necesario que aparezca <em>active= true</em></p>
+</div>
+<div id="configuración-de-la-página-web-bilingüe" class="section level2">
+<h2>Configuración de la página web bilingüe</h2>
+<p>Para configurar el sitio web en dos idiomas (español e inglés a modo de ejemplo) tenemos que crear dos subcarpetas llamadas <em>en</em> y <em>es</em> dentro de la carpeta <em>content</em>. Las nuevas subcarpetas deben tener cada una el contenido que había previamente en la carpeta <em>content</em>.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+<pre><code>📂── content
+   ├── 📁- es     &lt;- Español
+   ├── 📂- en     &lt;- Inglés
+    </code></pre>
+<p>Luego, en el archivo <em><strong>languages.toml</strong></em> descomentar y agregar las siglas del segundo idioma e indicar la carpeta donde está su contenido.</p>
+<pre class="r"><code>
+[en]
+  languageCode = &quot;en-us&quot;
+  contentDir = &quot;content/en&quot;  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  title = &quot;English site&quot;
+
+# Uncomment the lines below to configure your website in a second language.
+[es]
+ languageCode = &quot;es&quot;
+ contentDir = &quot;content/es&quot;
+  title = &quot;Sitio en español&quot;
+
+  [es.params]
+   description = &quot;Sitio en español&quot;
+  [[es.menu.main]]
+    name = &quot;es&quot;
+    url = &quot;#about&quot;
+    weight = 1</code></pre>
+<p>Además, se deben crear dos nuevos archivos <em><strong>menus.es.toml</strong></em> y <em><strong>menus.en.toml</strong></em>.</p>
+<pre><code>📂── config/default
+   ├── menus.es.toml     &lt;- Español
+   ├── menus.en.toml     &lt;- Inglés
+   ├── params.toml    
+   └── language.toml    </code></pre>
+<p>Finalmente en <em><strong>config.toml</strong></em> debemos elegir el idioma por defecto del sitio web. Por ejemplo si queremos que quede en español <em>defaultContentLanguage = “es”</em></p>
+<p>Para visibilizar que la página web es bilingüe, conviene ir a <em><strong>params.toml</strong></em> y verificar que en <em>show_language</em> diga TRUE.</p>
+<p><img src="images/params.png" width="90%"/></p>
+</div>
+</div>
+<div id="publicar-tu-página-web-en-internet-deploy" class="section level1">
+<h1>Publicar tu página web en internet (Deploy)</h1>
+<p>Una vez que la página web este editada de acuerdo a nuestros intereses, lo que resta es publicarla y compartirla al resto de la comunidad. Te indicamos dos opciones para ello que difieren en el servicio de host que utilizan. En ambos casos, son servicios gratuitos y permiten tener sitios estáticos. En el caso de Netlify, tu página web tendrá el siguiente dominio: <em>nombreweb.netlify.app</em> En el caso de Github Pages: <em>nombreweb.github.io</em></p>
+<p><strong>Netlify</strong> y <strong>GitHub pages</strong> son servicios de host en la nube que nos permite tener un sitio estático de forma gratuita y sencilla. Basicamente, ambos se conecta con el repositorio remoto en GitHub para publicar el sitio en la web.</p>
+<div id="utilizando-netlify" class="section level2">
+<h2>Utilizando <strong>Netlify</strong></h2>
+<p>Primero debemos poner una copia del archivo <em><strong>netlify.toml</strong></em> localizado en <em>theme &gt; starter-academic</em> en la carpeta base del proyecto. En dicho archivo debemos especificar la versión utilizada de Hugo.</p>
+<pre class="r"><code>
+blogdown::hugo_version()
+[1] &#39;0.78.1&#39;</code></pre>
+<p>El archivo <em><strong>netlify.toml</strong></em> corregido con la versión de Hugo debería quedar así:</p>
+<pre class="r"><code>
+[build.environment]
+  HUGO_VERSION = &quot;0.78.1&quot; #Aqui va el número de tu versión de Hugo
+  HUGO_ENABLEGITINFO = &quot;true&quot;
+</code></pre>
+<p>Además verificamos en el archivo <em><strong>config.toml</strong></em> esté especificado el theme utilizado. En nuestro caso es <em>starter-academic</em>.</p>
+<pre class="r"><code>
+theme = &quot;starter-academic&quot;
+</code></pre>
+<p>Ahora sí podemos publicar nuestra página web.
+Primero, debemos ingresar a la página de <a href="https://www.netlify.com/"><strong>Netlify</strong></a>. Cliqueamos en <em>Sign Up</em> y luego en <em>GitHub</em> para conectar <strong>Netlify</strong> con GitHub.</p>
+<p><img src="images/netlify1.png" width="90%"/></p>
+<p>Luego, elegimos el repositorio remoto donde está la información de la página web mediante la siguiente ruta <em>New site from Git &gt; GitHub</em>
+Obtendrás algo similar a la siguiente figura pero autocompletado con tu información.</p>
+<p><img src="images/netlify2.png" width="90%"/></p>
+<p>En opciones avanzadas (<em>Show advanced</em>) escribir la versión de Hugo que utilizaste para crear tu sitio web.</p>
+<p><img src="images/netlify3.png" width="90%"/></p>
+<p>Cliqueamos en <em>Deploy Site</em> y ¡¡¡listo!!! 🎉 Notaremos que <strong>Netlify</strong> asigna aleatoriamente el nombre de la página web. Para cambiarlo tendremos que ir a <em>Domain Settings &gt; Options &gt; Edit site name</em>
+Podrás editar el contenido de tu página web sin la necesidad de repetir los pasos anteriores ya que <strong>Netlify</strong> al estar vinculado con GitHub lo actualizará automáticamente.</p>
+</div>
+<div id="utilizando-github-pages" class="section level2">
+<h2>Utilizando GitHub Pages</h2>
+<p>A diferencia de Netlify, este servidor es parte de Github, por lo que no necesitamos conectarnos a una nueva cuenta. Dentro del repositorio remoto debemos ir a <em>Settings</em></p>
+<p><img src="images/githubpages.png" width="100%"/></p>
+<p>Luego, buscamos la sección de <strong>GitHub Pages</strong> y seleccionamos en la rama (<em>Branch</em>) donde se encuentra nuestro contenido web. Tener en cuenta que el dominio de nuestra página web será el nombre del repositorio, el cual puede ser cambiado después de haber sido creado.</p>
+<p><img src="images/githubpages2.png" width="90%"/></p>
+<p>Para información más detallada te recomendamos visitar la página de <a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site"><strong>GitHub Pages</strong></a>.</p>
+<p>🔊 ¡Ahora solo queda que difundas tu sitio a la comunidad!</p>
+</div>
+</div>
+<div id="bonus-track" class="section level1">
+<h1>Bonus track</h1>
+<p>Para agregar una nueva nota dentro de la página web tenemos que ir a <em>Addins</em> y seleccionar <em>New Post</em>. Se abrirá una ventana donde podremos completar la información del título, les autores, etiquetas, fecha, categorias y seleccionar la ubicación de la nueva nota.</p>
+<p><img src="images/post.png" width="90%"/></p>
+<div id="en-la-ultima-versión-de-blogdown" class="section level2">
+<h2>En la ultima versión de <code>blogdown</code></h2>
+<p>En el caso de estar trabajando con la última versión de <code>blogdown</code>, recomendamos seguir los consejos provistos por <a href="https://twitter.com/apreshill">Alison Hill</a> en su <a href="https://alison.netlify.app/larug-download/#1">presentación para L.A. R Users Group</a> para configurar la versión de Hugo y buenas prácticas para la construcción de una página web.</p>
+</div>
+</div>
+<div id="fuentes" class="section level1">
+<h1>Fuentes</h1>
+<ul>
+<li><p><a href="https://bookdown.org/yihui/blogdown/"><em><strong>blogdown: Creating Websites with R Markdown</strong></em></a> Yihui Xie, Amber Thomas, Alison Presmanes Hill</p></li>
+<li><p><a href="https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/"><em><strong>Up &amp; Running with blogdown</strong></em></a> Alison Presmanes Hill</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=f6kyYjCVAs0"><em><strong>Blogging in R with Blogdown</strong></em></a> dictado por Rebecca Barter para RLadies- Bucarest</p></li>
+<li><p><a href="http://www.rebeccabarter.com/blog/2020-02-03_blogger/"><em><strong>Becoming an R blogger</strong></em></a> Rebecca Barter</p></li>
+<li><p><a href="https://wowchemy.com/docs/get-started/"><em><strong>wowchemy</strong></em></a></p></li>
+<li><p><a href="https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/"><em><strong>A Spoonful of Hugo: The netlify.toml File</strong></em></a> Alison Presmanes Hill</p></li>
+</ul>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Para información mas detallada sobre el uso de Git te sugerimos consultar el libro de Jenny Bryan (en inglés), <a href="https://happygitwithr.com/"><em>Happy Git and GitHub for UseR</em></a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Se pueden elegir otros <em>themes</em> <a href="https://wowchemy.com/docs/customization/">aquí</a> o si te animás podes crearte el tuyo<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>En el caso de que se elijan otros idiomas, las subcarpetas a crearse deben respetar las siglas según se muestra <a href="https://www.w3schools.com/tags/ref_language_codes.asp">aquí</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
