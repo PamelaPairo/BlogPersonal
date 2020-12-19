@@ -11,12 +11,12 @@
 [es]
   languageCode = "es"
   contentDir = "content/es"
-  title = "Pamela E. Pairo"
+  title = "Pamela Pairo"
  
   [es.params]
-   description = "Pamela E. Pairo"
+   description = "Pamela Pairo"
    
  [[es.menu.main]]
-   name = "ES"
+   name = "es"
    url = "#about"
    weight = 1
