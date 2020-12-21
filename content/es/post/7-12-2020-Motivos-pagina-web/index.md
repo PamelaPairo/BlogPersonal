@@ -35,7 +35,7 @@ Dado que las páginas web personales no tienen una estructura definida, podemos 
 
 Si escribimos una nota de, por ejemplo, cómo realizar cierto análisis estadístico en R de una forma mas eficiente y la solución a un error frecuente, esto puede ser de gran ayuda para otra persona que esta lidiando con dicho análisis. Incluso pueden sugerirnos otra alternativa práctica a raiz de la lectura de nuestra nota.
 
-Si después de leer esta introducción y las ventajas de tener una página web, te surgieron las ganas de crear la tuya, te proponemos un flujo de trabajo para crear una página web personal de formar **gratuita** en **R**. 
+Si después de leer esta introducción y las ventajas de tener una página web, te surgieron las ganas de crear la tuya, te proponemos un flujo de trabajo para crear una página web personal de formar **gratuita en R**. 
 
 Aunque nos enfocamos principalmente en páginas web con perfil académico, como es de público conocimiento, existen otros tipos de páginas para diferentes audiencias (páginas con perfil culinario, otras que cuentan experiencias de viajes, páginas con fines literarios, entre otras). Los paso a paso que te comentamos en la próxima nota **sirven para construir todo tipo de páginas webs**.
 
