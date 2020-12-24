@@ -58,7 +58,7 @@ output:
 <p>Ahora vamos a instalar a modo de ejemplo la plantilla <strong>academic</strong></p>
 <pre class="r"><code>library (blogdown)
 
-blogdown::new_site(theme = &quot;gcuschen/hugo-academic&quot;, theme_example = TRUE)# en theme se debe colocar el nombre de la plantilla de hugo elegida </code></pre>
+blogdown::new_site(theme = &quot;wowchemy/starter-academic&quot;, theme_example = TRUE)# en theme se debe colocar el nombre de la plantilla de hugo elegida </code></pre>
 <p>Luego de esperar pocos minutos para la instalación de todas las carpetas y archivos que conforman la plantilla <strong>academic</strong>, obtendremos la primera versión de nuestro sitio web.</p>
 <div id="personalizando-tu-sitio-web" class="section level2">
 <h2>Personalizando tu sitio web</h2>
@@ -72,11 +72,11 @@ blogdown::stop_server()# para dejar de visualizar el contenido generado
 <p>Ya tenemos nuestra página web, ahora lo que queda es reemplazar la información de la página por la nuestra y organizarla según nuestros intereses. A medida que modifiquemos cada archivo vamos a poder visualizar automáticamente los cambios en el <em>Viewer</em> y o en el navegador.</p>
 <p>A continuación se muestra los principales archivos y carpetas que constituyen la página web.</p>
 <pre><code>├── config.toml       
-📂── config/default
+📁── config/default
    ├── menus.toml     
    ├── params.toml    
    └── languages.toml
-📁── content
+📂── content
 📂── themes</code></pre>
 <p>En el archivo <em><strong>config.toml</strong></em> se encuentran los metadatos de nuestra página. Dentro de este archivo modificaremos el título de la página web y la URL.</p>
 <p>Dentro de la carpeta _<strong>config/<em>default</em></strong> se encuentran tres archivos.toml que definen la configuración de la página web.</p>
@@ -86,13 +86,13 @@ blogdown::stop_server()# para dejar de visualizar el contenido generado
 <li><p><em><strong>languages.toml</strong></em>: se define el o los idiomas del sitio web.</p></li>
 </ul>
 <p>En la carpeta <em>content</em> se localiza el contenido de nuesta página web en subcarpetas. Por ejemplo, si se quiere cambiar la información de la biografia, hay que seguir la siguiente ruta <em>content &gt; authors &gt; admin</em> y modificar el archivo <em>index.md</em>. Podremos cambiar la foto de la página reemplazando <em><strong>avatar.jpg</strong></em> por una foto nuestra.</p>
-<pre><code>📁── content
+<pre><code>📂── content
    ├── 📁authors     
    ├── 📁courses
-   ├── 📂home
-   ├── 📂post
-   ├── 📂project
-   └── 📁publication</code></pre>
+   ├── 📁home
+   ├── 📁post
+   ├── 📁project
+   └── 📂publication</code></pre>
 <p>Desde <strong><em>content/home</em></strong> se podrán activar y editar cada una de las opciones del menú de navegación (widgets) de la página web. Para que se visualice el widget, es necesario que aparezca <em>active= true</em></p>
 </div>
 <div id="configuración-de-la-página-web-bilingüe" class="section level2">
@@ -100,7 +100,7 @@ blogdown::stop_server()# para dejar de visualizar el contenido generado
 <p>Para configurar el sitio web en dos idiomas (español e inglés a modo de ejemplo) tenemos que crear dos subcarpetas llamadas <em>en</em> y <em>es</em> dentro de la carpeta <em>content</em>. Las nuevas subcarpetas deben tener cada una el contenido que había previamente en la carpeta <em>content</em>.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
 <pre><code>📁── content
    ├── 📁- es     &lt;- Español
-   ├── 📂- en     &lt;- Inglés
+   ├── 📁- en     &lt;- Inglés
     </code></pre>
 <p>Luego, en el archivo <em><strong>languages.toml</strong></em> descomentar y agregar las siglas del segundo idioma e indicar la carpeta donde está su contenido.</p>
 <pre class="r"><code>
@@ -122,7 +122,7 @@ blogdown::stop_server()# para dejar de visualizar el contenido generado
     url = &quot;#about&quot;
     weight = 1</code></pre>
 <p>Además, se deben crear dos nuevos archivos <em><strong>menus.es.toml</strong></em> y <em><strong>menus.en.toml</strong></em>.</p>
-<pre><code>📂── config/default
+<pre><code>📁── config/default
    ├── menus.es.toml     &lt;- Español
    ├── menus.en.toml     &lt;- Inglés
    ├── params.toml    
@@ -160,7 +160,7 @@ Obtendrás algo similar a la siguiente figura pero autocompletado con tu informa
 <p><img src="images/netlify2.png" width="90%"/></p>
 <p>En opciones avanzadas (<em>Show advanced</em>) escribir la versión de Hugo que utilizaste para crear tu sitio web.</p>
 <p><img src="images/netlify3.png" width="90%"/></p>
-<p>Cliqueamos en <em>Deploy Site</em> y ¡¡¡listo!!! 🎈 Notaremos que <strong>Netlify</strong> asigna aleatoriamente el nombre de la página web. Para cambiarlo tendremos que ir a <em>Domain Settings &gt; Options &gt; Edit site name</em>
+<p>Cliqueamos en <em>Deploy Site</em> y ¡¡¡listo!!! 🥳 Notaremos que <strong>Netlify</strong> asigna aleatoriamente el nombre de la página web. Para cambiarlo tendremos que ir a <em>Domain Settings &gt; Options &gt; Edit site name</em>
 Podrás editar el contenido de tu página web sin la necesidad de repetir los pasos anteriores ya que <strong>Netlify</strong> al estar vinculado con GitHub lo actualizará automáticamente.</p>
 </div>
 <div id="utilizando-github-pages" class="section level2">
