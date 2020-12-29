@@ -34,6 +34,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/PamelaPairo
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/pamela-e-pairo-5a2004202/
 superuser: true
 title: Pamela E. Pairo
 user_groups:
