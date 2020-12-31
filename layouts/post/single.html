@@ -1,0 +1,29 @@
+{{- define "main" -}}
+
+<article class="article">
+
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="PamelaPairo/BlogPersonal"
+        issue-term="pathname"
+        label="comments :crystal_ball:"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</article>
+
+
+{{- end -}}
