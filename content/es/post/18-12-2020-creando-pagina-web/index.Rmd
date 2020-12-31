@@ -265,4 +265,4 @@ En el caso de estar trabajando con la última versión de `blogdown`, recomendam
 
 + [_**A Spoonful of Hugo: The netlify.toml File**_](https://alison.rbind.io/post/2019-02-19-hugo-netlify-toml/) Alison Presmanes Hill
 
-
+### ¿Qué te pareció esta nota? Cualquier comentario es bienvenido 😁
