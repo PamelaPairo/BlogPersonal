@@ -3,7 +3,6 @@ date: "2020-12-31"
 diagram: true
 image:
   caption: 'Image credit: [**Jonathan Farber**](https://unsplash.com/photos/YN-zS9HR0q8)'
-  placement: 3
 math: false
 title: PhD thesis defense
 ---
