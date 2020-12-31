@@ -8,7 +8,7 @@ date: "2020-12-07T00:00:00Z"
 doi: ""
 featured: true
 image:
-  caption: 'Image credit: [**Gabriel Benois**](https://unsplash.com/photos/qnWPjzewewA)'
+  caption: 'Image credit: [**MD Jerry on Unsplash**](https://unsplash.com/photos/v9wN8wCPLHY)'
   focal_point: ""
   preview_only: false
 projects:
