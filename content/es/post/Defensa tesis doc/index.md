@@ -1,6 +1,9 @@
 ---
 date: "2020-09-09"
 diagram: true
+image:
+  caption: 'Image credit: [**Jonathan Farber**](https://unsplash.com/photos/YN-zS9HR0q8)'
+focal_point: ""
 math: true
 title: Defensa de Tesis Doctoral
 editor_options: 

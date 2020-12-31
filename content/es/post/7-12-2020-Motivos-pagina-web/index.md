@@ -14,6 +14,9 @@ tags:
 - portfolio
 - Netlify
 - página web
+image:
+  caption: 'Image credit: [**Photo by Diego PH**](https://unsplash.com/photos/fIq0tET6llw)'
+focal_point: ""
 ---
 ## Algunos motivos  
 

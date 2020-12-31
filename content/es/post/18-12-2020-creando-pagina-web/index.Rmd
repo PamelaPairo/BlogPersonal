@@ -15,7 +15,7 @@ tags:
   - Netlify
   - multilingue
 image:
-  caption: '[Photo by Joanna Kosinska on Unsplash](https://unsplash.com/photos/Prfs32wh-o4)'
+  caption: '[Photo by Jaqueline Brandwayn on Unsplash](https://unsplash.com/photos/S8MSj5VzHxQ)'
   focal_point: center
 output:
   blogdown::html_page:

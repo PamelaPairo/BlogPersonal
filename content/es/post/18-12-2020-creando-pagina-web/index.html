@@ -15,7 +15,7 @@ tags:
   - Netlify
   - multilingue
 image:
-  caption: '[Photo by Joanna Kosinska on Unsplash](https://unsplash.com/photos/Prfs32wh-o4)'
+  caption: '[Photo by Jaqueline Brandwayn on Unsplash](https://unsplash.com/photos/S8MSj5VzHxQ)'
   focal_point: center
 output:
   blogdown::html_page:
@@ -76,8 +76,8 @@ blogdown::stop_server()# para dejar de visualizar el contenido generado
    ├── menus.toml     
    ├── params.toml    
    └── languages.toml
-📂── content
-📂── themes</code></pre>
+📁── content
+📁── themes</code></pre>
 <p>En el archivo <em><strong>config.toml</strong></em> se encuentran los metadatos de nuestra página. Dentro de este archivo modificaremos el título de la página web y la URL.</p>
 <p>Dentro de la carpeta _<strong>config/<em>default</em></strong> se encuentran tres archivos.toml que definen la configuración de la página web.</p>
 <ul>
@@ -86,20 +86,20 @@ blogdown::stop_server()# para dejar de visualizar el contenido generado
 <li><p><em><strong>languages.toml</strong></em>: se define el o los idiomas del sitio web.</p></li>
 </ul>
 <p>En la carpeta <em>content</em> se localiza el contenido de nuesta página web en subcarpetas. Por ejemplo, si se quiere cambiar la información de la biografia, hay que seguir la siguiente ruta <em>content &gt; authors &gt; admin</em> y modificar el archivo <em>index.md</em>. Podremos cambiar la foto de la página reemplazando <em><strong>avatar.jpg</strong></em> por una foto nuestra.</p>
-<pre><code>📂── content
-   ├── 📁authors     
+<pre><code>📁── content
+   ├── 📂authors     
    ├── 📁courses
    ├── 📁home
    ├── 📁post
-   ├── 📁project
-   └── 📂publication</code></pre>
+   ├── 📂project
+   └── 📁publication</code></pre>
 <p>Desde <strong><em>content/home</em></strong> se podrán activar y editar cada una de las opciones del menú de navegación (widgets) de la página web. Para que se visualice el widget, es necesario que aparezca <em>active= true</em></p>
 </div>
 <div id="configuración-de-la-página-web-bilingüe" class="section level2">
 <h2>Configuración de la página web bilingüe</h2>
 <p>Para configurar el sitio web en dos idiomas (español e inglés a modo de ejemplo) tenemos que crear dos subcarpetas llamadas <em>en</em> y <em>es</em> dentro de la carpeta <em>content</em>. Las nuevas subcarpetas deben tener cada una el contenido que había previamente en la carpeta <em>content</em>.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
 <pre><code>📁── content
-   ├── 📁- es     &lt;- Español
+   ├── 📂- es     &lt;- Español
    ├── 📁- en     &lt;- Inglés
     </code></pre>
 <p>Luego, en el archivo <em><strong>languages.toml</strong></em> descomentar y agregar las siglas del segundo idioma e indicar la carpeta donde está su contenido.</p>
@@ -160,7 +160,7 @@ Obtendrás algo similar a la siguiente figura pero autocompletado con tu informa
 <p><img src="images/netlify2.png" width="90%"/></p>
 <p>En opciones avanzadas (<em>Show advanced</em>) escribir la versión de Hugo que utilizaste para crear tu sitio web.</p>
 <p><img src="images/netlify3.png" width="90%"/></p>
-<p>Cliqueamos en <em>Deploy Site</em> y ¡¡¡listo!!! 🥳 Notaremos que <strong>Netlify</strong> asigna aleatoriamente el nombre de la página web. Para cambiarlo tendremos que ir a <em>Domain Settings &gt; Options &gt; Edit site name</em>
+<p>Cliqueamos en <em>Deploy Site</em> y ¡¡¡listo!!! 🎂 Notaremos que <strong>Netlify</strong> asigna aleatoriamente el nombre de la página web. Para cambiarlo tendremos que ir a <em>Domain Settings &gt; Options &gt; Edit site name</em>
 Podrás editar el contenido de tu página web sin la necesidad de repetir los pasos anteriores ya que <strong>Netlify</strong> al estar vinculado con GitHub lo actualizará automáticamente.</p>
 </div>
 <div id="utilizando-github-pages" class="section level2">
