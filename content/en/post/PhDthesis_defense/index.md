@@ -2,7 +2,7 @@
 date: "2020-12-31"
 diagram: true
 image:
-  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+  caption: 'Image credit: [**Jonathan Farber**](https://unsplash.com/photos/YN-zS9HR0q8)'
   placement: 3
 math: false
 title: PhD thesis defense
