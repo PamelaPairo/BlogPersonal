@@ -8,7 +8,7 @@ math: false
 title: PhD thesis defense
 ---
 
-In mid-June of this year, I defended my PhD thesis entitled
+In mid-June of this year, I defended my PhD thesis titled
 "Development of tree plantations in grassland biome: responses of taxonomic and functional diversity in multiple taxa". This thesis was supervised by Dr. M. Isabel Bellocq and co-directed by Dr. Pablo Aceñolaza. The jury members were Dr. Marcelo Arturi, Dr. Gerardo Cueto and Dr. Pedro Blendinger.
 
 The structure was:
