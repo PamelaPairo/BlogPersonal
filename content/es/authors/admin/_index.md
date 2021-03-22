@@ -41,7 +41,7 @@ user_groups:
 - Visitors
 ---
 
-Soy Dra en Ciencias Biológicas de la [Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires](https://exactas.uba.ar/). Realicé mi doctorado en el [Laboratorio de Ecología de Comunidades y Macroecología (ECOMA)][] bajo la dirección de la Dra M. Isabel Bellocq. También soy docente de la materia Estadistica Aplicada en la [Universidad Argentina de la Empresa (UADE)](https://www.uade.edu.ar/facultad-de-ingenieria-y-ciencias-exactas/).
+Soy Dra en Ciencias Biológicas de la [Facultad de Ciencias Exactas y Naturales](https://exactas.uba.ar/) de la Universidad de Buenos Aires. Realicé mi doctorado en el [Laboratorio de Ecología de Comunidades y Macroecología (ECOMA)][] bajo la dirección de la Dra M. Isabel Bellocq. También soy docente de la materia Estadistica Aplicada en la [Universidad Argentina de la Empresa (UADE)](https://www.uade.edu.ar/facultad-de-ingenieria-y-ciencias-exactas/).
 
 Mi línea de investigación se centra en analizar el impacto de las actividades humanas en la diversidad y composición de las comunidades biológicas con particular interés en los artrópodos. Utilizo el tradicional enfoque taxonómico (riqueza y composición de especies) junto con el análisis de la diversidad funcional para comprender los mecanismos subyacentes en la formación de los ensambles biológicos en ambientes antropizados. Para ello, uso el programa R para la visualización de datos y análisis estadístico. Actualmente, estoy profundizando en aprender a analizar datos espaciales tanto en R como en QGis.
 
