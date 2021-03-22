@@ -93,11 +93,11 @@ email = "pamepairo@gmail.com"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Lab. 55, Pab 2, Ciudad Universitaria", city = "CABA", postcode = "1428", country = "Argentina", country_code = "AR"}
+address = {street = "Av. Paseo Colón 751", city = "CABA", postcode = "1063", country = "Argentina", country_code = "AR"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "-34.5421", longitude = "-58.4444"}
+coordinates = {latitude = "-34.61667", longitude = "-58.36954"}
 
 # Directions for visitors to locate you.
 #directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
@@ -210,7 +210,7 @@ plugins_js  = []
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
+  post_view = 1
   publication_view = 2
   talk_view = 2
 
