@@ -19,7 +19,7 @@ publication_types:
 - "2"
 publishDate: "2021-05-13T00:00:00Z"
 slides: example
-summary: Se comparó la diversidad alfa y beta taxonómica y funcional de los ensamblajes de arañas entre cultivos de soja, plantaciones de eucalipto y campos de ganado con pastizales seminaturales de la Provincia de Entre Ríos, Argentina.
+summary: We compared the taxonomic and functional alpha and beta diversity of spider assemblages between soybean crops, eucalypt plantations, and cattle felds with seminatural grasslands.
 tags:
 - spider assemblages
 - pampean grasslands
