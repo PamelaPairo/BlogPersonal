@@ -5,7 +5,7 @@ authors:
 - admin
 - M. Isabel Bellocq
 - Julieta Filloy
-date: "2021-13-05T00:00:00Z"
+date: "2021-05-13T00:00:00Z"
 doi: "10.1038/s41598-021-89658-7"
 featured: true
 image:
@@ -17,7 +17,7 @@ projects:
 publication: In *Scientific Reports*
 publication_types:
 - "2"
-publishDate: "2021-13-05T00:00:00Z"
+publishDate: "2021-05-13T00:00:00Z"
 slides: example
 summary: Se evaluaron los mecanismos de formación de ensambles de hormigas epígeas en una cronosecuencia forestal de eucalipto de la Pampa Mesopotámica.
 tags:
