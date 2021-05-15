@@ -6,7 +6,7 @@
 
 [build.environment]
   HUGO_THEME = "hugo-academic"
-  HUGO_VERSION = "0.74.3"
+  HUGO_VERSION = "0.78.1"
   HUGO_ENABLEGITINFO = "false"
 
 [context.production.environment]
