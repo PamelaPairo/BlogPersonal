@@ -10,13 +10,13 @@ links:
   name: "pamepairo"
   url: https://twitter.com/PamePairo
 #slides: example
-summary: Proyecto de mentoría de la Diplomatura en Ciencia de Datos
+summary: Proyecto de mentoría de la Diplomatura en Ciencia de Datos (FAMAF)
 tags:
-#- Machine Learning
-#- Procesamiento del lenguaje natural
-#- Indicadores financieros
-#- Noticias
-#- Word embeddings
+- Machine Learning
+- Procesamiento del lenguaje natural
+- Indicadores financieros
+- Noticias
+- Word embeddings
 title: Análisis de indicadores y noticias financieras
 url_code: "https://github.com/PamelaPairo/Mentoria"
 url_pdf: ""
