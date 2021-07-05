@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I'm community ecologist with particular interest in myrmecology and spatial data analysis.
+bio: I'm data scientist with particular interest in spatial ecoepidemiology.
 education:
   courses:
   - course: PhD in Biological Sciences
@@ -12,11 +12,11 @@ education:
     year: 2009 - 2014
 email: ""
 interests:
-- RStats
+- Spatial data analysis
+- Rstats
 - GIS
-- Data Science
-- Taxonomic and functional diversity
-- Mirmecology
+- Google Earth Engine
+- Epidemiology
 organizations:
 - name: Argentina National Space Activities Commission (CONAE)
   url: "https://www.argentina.gob.ar/ciencia/conae"

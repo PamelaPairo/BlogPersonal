@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: Soy ecóloga de comunidades, con particular interés en la mirmecología y el análisis de datos espaciales.
+bio: Soy cientifica de datos, con particular interés en la ecoepidemiología espacial.
 education:
   courses:
   - course: Dra. en Ciencias Biológicas
@@ -12,11 +12,11 @@ education:
     year: 2009 - 2014
 email: ""
 interests:
-- Mirmecología
+- Análisis de datos espaciales
 - RStats
 - SIG
-- Análisis de bases de datos
-- Diversidad taxonómica y funcional
+- Google Earth Engine
+- Epidemiología
 organizations:
 - name: Comisión Nacional de Actividades Espaciales (CONAE)
   url: "https://www.argentina.gob.ar/ciencia/conae"
