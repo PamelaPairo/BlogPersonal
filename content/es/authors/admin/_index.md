@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: Soy cientifica de datos, con particular interés en la ecoepidemiología espacial.
+bio: Soy cientifica de datos con particular interés en la ecoepidemiología espacial.
 education:
   courses:
   - course: Dra. en Ciencias Biológicas
