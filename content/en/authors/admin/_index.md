@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I'm data scientist with particular interest in spatial ecoepidemiology.
+bio: I'm data scientist with particular interest in spatial epidemiology.
 education:
   courses:
   - course: PhD in Biological Sciences
