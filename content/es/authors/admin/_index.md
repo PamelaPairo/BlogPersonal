@@ -20,7 +20,7 @@ interests:
 organizations:
 - name: Comisión Nacional de Actividades Espaciales (CONAE)
   url: "https://www.argentina.gob.ar/ciencia/conae"
-role: Dra en Ciencias Biológicas
+role: Científica de Datos
 social:
 - icon: envelope
   icon_pack: fas
@@ -41,11 +41,11 @@ user_groups:
 - Visitors
 ---
 
-Soy Dra en Ciencias Biológicas de la [Facultad de Ciencias Exactas y Naturales](https://exactas.uba.ar/) de la Universidad de Buenos Aires. Realicé mi doctorado en el [Laboratorio de Ecología de Comunidades y Macroecología (ECOMA)][] bajo la dirección de la Dra M. Isabel Bellocq. También soy docente de la materia Estadistica Aplicada en la [Universidad Argentina de la Empresa (UADE)](https://www.uade.edu.ar/facultad-de-ingenieria-y-ciencias-exactas/).
+Soy Dra en Ciencias Biológicas de la [Facultad de Ciencias Exactas y Naturales](https://exactas.uba.ar/) de la Universidad de Buenos Aires, Argentina. Realicé mi doctorado en el [Laboratorio de Ecología de Comunidades y Macroecología (ECOMA)][]. También soy Instructora certificada [The Carpentries](https://carpentries.org/) y docente de la materia Estadistica Aplicada en la [Universidad Argentina de la Empresa (UADE)](https://www.uade.edu.ar/facultad-de-ingenieria-y-ciencias-exactas/).
 
-Mi línea de investigación se centra en analizar el impacto de las actividades humanas en la diversidad y composición de las comunidades biológicas con particular interés en los artrópodos. Utilizo el tradicional enfoque taxonómico (riqueza y composición de especies) junto con el análisis de la diversidad funcional para comprender los mecanismos subyacentes en la formación de los ensambles biológicos en ambientes antropizados. Para ello, uso el programa R para la visualización de datos y análisis estadístico. Actualmente, estoy profundizando en aprender a analizar datos espaciales tanto en R como en QGis.
+Actualmente me desempeño como Cientifica de Datos en la Unidad de Desarrollo y Soluciones Ambientales (UDESA-CONAE). Implemento técnicas de _machine learning_ para la clasificación de cultivos agrícolas e inferencia bayesiana con INLA para el modelado de la distribución de _Calomys musculinus_, reservorio del Virus Junin. Además, estoy cursando la [Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones de la FAMAF, Universidad de Córdoba.](https://diplodatos.famaf.unc.edu.ar/)  
 
-Fuera de mi actividad académica, me encanta viajar, contactarme con la naturaleza y aprender de la cultura local de los lugares que visito. También, disfruto mucho de bailar en [Sensei Urban Studio](https://www.instagram.com/senseiurbanstudio/?hl=en). Particularmente, me gusta Dancehall, un estilo musical que nació en Jamaica. 
+Fuera de mi actividad laboral, me encanta viajar, contactarme con la naturaleza y aprender de la cultura local de los lugares que visito. Uno de mis hobbies favoritos es bailar en [Sensei Urban Studio](https://www.instagram.com/senseiurbanstudio/?hl=en). 
 
 Ante cualquier duda o sugerencia no dudes en contactarme 😁
 
