@@ -20,7 +20,7 @@ interests:
 organizations:
 - name: Argentina National Space Activities Commission (CONAE)
   url: "https://www.argentina.gob.ar/ciencia/conae"
-role: PhD in Biological Sciences
+role: Data Scientist
 social:
 - icon: envelope
   icon_pack: fas
@@ -41,11 +41,13 @@ user_groups:
 - Visitors
 ---
 
-I’m PhD in Biological Sciences at [Facultad de Ciencias Exactas y Naturales](https://exactas.uba.ar/) from the University of Buenos Aires, Argentina. I did my PhD in the [Laboratory of Community Ecology, and Macroecology (ECOMA)][] supervised by Dr. M. Isabel Bellocq. I'm also a teaching assistant in Applied Statistics at [Argentine University of Enterprise (UADE)](https://www.uade.edu.ar/facultad-de-ingenieria-y-ciencias-exactas/).
+I’m PhD in Biological Sciences at [Facultad de Ciencias Exactas y Naturales](https://exactas.uba.ar/) from the University of Buenos Aires, Argentina. I did my PhD in the [Laboratory of Community Ecology, and Macroecology (ECOMA)][]. I'm also a [certified Carpentries Instructor](https://carpentries.org/) and teaching assistant in Applied Statistics at [Argentine University of Enterprise (UADE)](https://www.uade.edu.ar/facultad-de-ingenieria-y-ciencias-exactas/).
 
-My research line focuses on analyzing the impact of human activities on the diversity and composition of biological communities with particular interest in arthropods. I have used the traditional taxonomic approach (species richness and composition) together with the functional diversity to better understanding the community assembly process in anthropogenic habitats. To do that, I have been using R to data visualization and statistical analysis. Currently, I'm learning about visualizing spatial data both in R and QGis.
+Currently, I'm working as a Data Scientist at the Unidad de Desarrollo y Soluciones Ambientales (UDESA-CONAE). I've implemented supervised machine learning techniques for crop classification and Bayesian inference with INLA for the distribution modelling of _Calomys musculinus_, reservoir of of zoonotic diseases. In addition, I am taking the [Graduate Diploma in Data Science, Machine Learning and its Applications at FAMAF, University of Córdoba](https://diplodatos.famaf.unc.edu.ar/).  
 
-Beyond my academic activities, I love traveling, stay in contact with nature, and learn from the local culture of the places that I visited. Also, I really enjoy dancing at [Sensei Urban Studio](https://www.instagram.com/senseiurbanstudio/?hl=en). Particularly, I like Dancehall, a musical style that was born in Jamaica. 
+Translated with www.DeepL.com/Translator (free version)
+
+Beyond my academic activities, I love traveling, stay in contact with nature, and learn from the local culture of the places that I visited. Also, I really enjoy dancing at [Sensei Urban Studio](https://www.instagram.com/senseiurbanstudio/?hl=en).
 
 Feel free to reach me out with any questions or suggestions 😁
 
