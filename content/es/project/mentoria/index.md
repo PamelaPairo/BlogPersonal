@@ -18,21 +18,20 @@ tags:
 - Noticias
 - Word embeddings
 title: Análisis de indicadores y noticias financieras
-url_code: "https://github.com/PamelaPairo/Mentoria"
+url_code: "https://github.com/Mentoria-Financiera-DiploDatos"
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=V0tefFfP9vQ&t=26s&ab_channel=DiplomaturaenCienciadeDatos"
 ---
-El proyecto se enmarca en la mentoría para la Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones de la Universidad de Córdoba realizado junto a Lautaro Bringas y Francisco Pitriqueo.
+El proyecto se enmarca en la mentoría para la Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones de la Universidad de Córdoba realizado junto a Martín Peñas, Bruno García y Nicolás Chiapello.
 
 El objetivo es identificar aquellos indicadores financieros que afectan en la variación del precio de las acciones. A su vez, se quiere evaluar la influencia de la valoración de las noticias financieras en la variación del precio.
 
-Algunas preguntas que se intentarán contestar son las siguientes:
+<center><img src="https://imgur.com/V6QNiJa.jpg"></center>
 
-- ¿Existe alguna diferencia en la variación de los precios por sector?
 
-- ¿Se observa alguna tendencia a lo largo de los años?
+El video que resume el proyecto se puede ver a continuación:
 
-- ¿Existe alguna diferencia en la valoración sobre los mercados dado por el contenido de la noticia y su título?
+{{< youtube V0tefFfP9vQ >}}
 
 
